@@ -2,10 +2,10 @@
 Welcome to my personal portfolio website built with **React.js**, **Framer Motion**, and **modern UI design** principles.
 It showcases my work, projects, skills, and journey as a developer passionate about **AI, ML, and Web Technologies**.
 
-🌐 **Website:** [[[kunj-Portfolio]]](https://kunj-desai.vercel.app/)
+🌐 **Website:** [[[Gangadhar-Portfolio]]](https://https://gdt-portfolio.vercel.app/)
 
 🖼️ **Screenshots**
-<img width="1902" height="994" alt="Screenshot 2025-11-03 232447" src="https://github.com/gangadhartiwari/GDT-Portfolio/issues/1#issue-3716164653" />
+<img width="1349" height="612" alt="Image" src="https://github.com/user-attachments/assets/21423327-7db3-43ff-9d0d-f432db24c28a" />
 
 ## 🚀 Features
 
@@ -37,10 +37,10 @@ To run this project locally:
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/kunj2803/kunjdesai-portfolio.git
+git clone https://github.com/gangadhartiwari/GDT-Portfolio.git
 
 # 2️⃣ Navigate to project directory
-cd kunjdesai-portfolio
+cd GDT-portfolio
 
 # 3️⃣ Install dependencies
 npm install
