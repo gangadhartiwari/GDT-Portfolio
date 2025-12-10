@@ -91,7 +91,7 @@ export default function Home() {
 
           {/* Typing Animated Text */}
           <p className="typing-effect">
-            Data Analyst | Backend Developer | Tech Explorer
+            Data Analyst | Backend Developer | ETL and Automation
           </p>
 
           {/* Profession Tags */}
@@ -106,8 +106,8 @@ export default function Home() {
           {/* Info Cards */}
           <motion.div className="info-cards">
             {[
-              { label: '📍 Location', value: 'Indore, MadhyaPradesh, India' },
-              { label: '💼 Expertise', value: 'Data Analyst/Scientist, Problem Solving' },
+              { label: '📍 Location', value: 'Indore, MP, India' },
+              { label: '💼 Expertise', value: 'Data Analyst - Scientist' },
               { label: '📧 Contact', value: 'gangadhartiwari01@gmail.com' },
             ].map((info, i) => (
               <motion.div key={i} whileHover={{ y: -4, scale: 1.05 }} transition={{ type: 'spring', stiffness: 250 }} className="info-card">
