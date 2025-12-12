@@ -21,15 +21,16 @@ export default function Navbar() {
   const linksRef = useRef(null);
 
   // Check if links overflow nav width (to show hamburger)
-  const checkOverflow = () => {
-    if (!navRef.current || !linksRef.current) return;
-    setShowButton(linksRef.current.scrollWidth > navRef.current.offsetWidth);
-  };
+  
+  const MOBILE_BREAKPOINT = 1024; // adjust as you like
 
   useEffect(() => {
-    checkOverflow();
-    window.addEventListener("resize", checkOverflow);
-    return () => window.removeEventListener("resize", checkOverflow);
+    const check = () => {
+      setShowButton(window.innerWidth < MOBILE_BREAKPOINT);
+    };
+    check();
+    window.addEventListener("resize", check);
+    return () => window.removeEventListener("resize", check);
   }, []);
 
   return (
