@@ -7,14 +7,14 @@ const IMAGES = {
   personal: [
     {
       id: 1,
-      caption: "Lost in the beauty of the misty forest 🌲🌫️",
-      photos: ["/gallery/matheran.jpg", "/gallery/matheran2.jpg"],
+      caption: "🌲🌫️",
+      photos: ["/gallery/IMG_20230710_023223.jpg", "/gallery/matheran2.jpg"],
     },
     {
       id: 2,
       caption:
         "Weekend getaway to clear my head 🌄 Sometimes inspiration strikes when you’re away from the screen.",
-      photos: ["/gallery/lonawala.jpg", "/gallery/lonawala2.jpg"],
+      photos: ["/gallery/IMG_20221111_145919.jpg", "/gallery/SquarePic_20230723_14384145.jpg"],
     },
   ],
   projects: [
@@ -36,12 +36,12 @@ const IMAGES = {
     {
       id: 1,
       caption: "Solved 1000 LeetCode questions 🏆!",
-      photos: ["/gallery/leet.jpeg"],
+      photos: ["/gallery/"],
     },
     {
       id: 2,
       caption: "Technical Lead at SCET AI Club 🤖",
-      photos: ["/gallery/techlead.png"],
+      photos: ["/gallery/"],
     },
   ],
 };
