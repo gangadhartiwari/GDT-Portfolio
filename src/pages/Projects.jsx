@@ -4,61 +4,30 @@ import { Github, ExternalLink } from 'lucide-react'
 
 const PROJECTS = [
   {
-    title: '🩺 Mammogram Malignancy Detector',
-    desc: 'Hybrid CNN + YOLOv8 ensemble for full-image breast cancer detection with ROI preprocessing and sliding-window inference.',
-    ss: '/mamo.png',
-    tech: ['TensorFlow', 'Keras', 'OpenCV', 'YOLOv8'],
-    live: '#',
-    code: 'https://github.com/kunjdesai/mammo-detector'
+    title: 'NGO Website',
+    desc: 'Designed and deployed the SmilingTears Foundation NGO website using Flask, Python, MySQL, and HTML/CSS, with full deployment on PythonAnywhere to support outreach and donor engagement.',
+    ss: '/stf.png',
+    tech: ['Python', 'Flask', 'SQL', 'HTML', 'CSS'],
+    live: 'https://www.smilingtear.com/',
+    code: 'https://github.com/gangadhartiwari/SmilingTear-Foundation'
   },
   {
-  title: '🧠 Mental Health Analyzer',
-  desc: 'NLP-based system that analyzes user text to detect signs of anxiety, stress, and depression using sentiment analysis and transformer models.',
-  ss: '/mentalhealth.jpg',
-  tech: ['Python', 'Transformers', 'NLTK', 'scikit-learn'],
-  live: 'https://mental-health-analyzer.streamlit.app/',
-  code: 'https://github.com/kunj2803/Mental-Health-Analyzer'
-  },
-  {
-    title: '🤖 Indian Sign Language Interpreter',
-    desc: 'Real-time gesture recognition and translation using Mediapipe + TensorFlow, enabling live sign-to-text interpretation.',
-    ss: '/ISL.png',
-    tech: ['Mediapipe', 'TensorFlow', 'React', 'Flask'],
-    live: '#',
-    code: 'https://github.com/kunjdesai/ISL-Interpreter'
-  },
-  {
-  title: '💼 Portfolio Website',
-  desc: 'A modern and responsive portfolio built with React and Framer Motion, showcasing projects, skills, and achievements with smooth animations and interactive UI.',
-  ss: '/portfolio.jpg',
-  tech: ['React', 'Framer Motion', 'Tailwind CSS'],
+  title: 'Mobile Sales Analysis',
+  desc: 'Developed a Power BI sales dashboard with Excel-cleaned data and DAX-driven metrics to visualize trends, revenue, and customer preferences, enabling faster and more informed business decisions',
+  ss: '/portfolio_1.png',
+  tech: ['SQL', 'Power BI', 'DAX', 'Ad. Excel'],
   live: '#',
-  code: 'https://github.com/kunj2803/Kunj-Portfolio'
+  code: 'https://github.com/gangadhartiwari/PowerBI-Dashboards/tree/main/Mobile%20sales%20analysis'
   },
   {
-    title: '💬 DocuChat – Gemini AI Chatbot',
-    desc: 'An intelligent document interaction app powered by Gemini API that understands and answers queries from uploaded PDFs.',
-    ss: '/Docuchat.png',
-    tech: ['Gemini API', 'LangChain', 'Python', 'Streamlit'],
-    live: 'https://docuchat-chatbot.streamlit.app/',
-    code: 'https://github.com/kunj2803/Docuchat-Chatbot'
-  },
-  {
-    title: '📊 ProfileX – Data Profiler',
-    desc: 'Smart data profiling and preprocessing web app for CSV datasets — feature summary, missing value handling, and visualization.',
-    ss: '/ProfileX.png',
-    tech: ['Streamlit', 'Pandas', 'Plotly'],
-    live: 'https://profilex.streamlit.app/',
-    code: 'https://github.com/kunjdesai/ProfileX'
-  },
-  {
-    title: '🧬 Breast Cancer Prediction',
-    desc: 'ML pipeline using SVC, Random Forest, and XGBoost with SMOTE for imbalanced dataset handling and model optimization.',
-    ss: '/breastpred.jpg',
-    tech: ['scikit-learn', 'XGBoost', 'Pandas'],
+    title: 'Road Accident Analysis',
+    desc: 'Developed a Power BI accident analysis dashboard using SQL, Excel, and DAX to uncover severity trends, high-risk locations, and accident patterns, helping stakeholders make informed public safety decisions',
+    ss: '/portfolio_3.png',
+    tech: ['SQL', 'Power BI', 'Ad. Excel'],
     live: '#',
-    code: 'https://github.com/kunjdesai/BreastCancerPrediction'
+    code: 'https://github.com/gangadhartiwari/Road_accident_analysis_by_powerbi'
   }
+
 ]
 
 export default function Projects() {
